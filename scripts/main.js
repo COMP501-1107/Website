@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		<ul>
 			<li><a href="${ROOT}/misc/references.html">References</a></li>
 		</ul>
-		<ul style="font-size: 60%;>
+		<ul style="font-size: 60%;">
 			<li><a href="${ROOT}/misc/ethics.html">Ethical Reflections</a></li>
 			<li><a href="${ROOT}/misc/process.html">Process Support</a></li>
 			<li><a href="${ROOT}/misc/team-formation.html">Team Formation</a></li>
