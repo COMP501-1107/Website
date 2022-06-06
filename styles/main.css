@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 html {
 	max-width: 38rem;
 	padding: 2rem;
@@ -38,4 +42,12 @@ footer {
 
 a {
 	opacity: 75%;
+}
+
+table,
+table * {
+	padding: 0.4em 0.6em;
+	border: 2px solid #444;
+	border-collapse: collapse;
+	text-align: center;
 }
