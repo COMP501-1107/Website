@@ -1,18 +1,24 @@
 const ROOT = '/website'; // https://github.com/COMP501-1107/website
 document.addEventListener('DOMContentLoaded', function () {
-	document.querySelector('nav').innerHTML = [
-		['index.html', 'Home page'],
-		['misc/topic.html', 'Technology/Topic'],
-		['misc/opportunities.html', 'Opportunities'],
-		['misc/risks.html', 'Risks'],
-		['misc/choices.html', 'Choices'],
-		['misc/ethics.html', 'Ethical Reflections'],
-		['misc/references.html', 'References'],
-		['misc/process.html', 'Process Support'],
-		['misc/team-formation.html', 'Team Formation'],
-		['misc/rubric.html', 'Assessment Rubric'],
-		['misc/portfolio.html', 'Project Portfolio'],
-	].map(([link, text]) => `<li><a href="${ROOT}/${link}">${text}</a></li>`).join('\n');
+	document.querySelector('nav').innerHTML = `
+		<ul>
+			<li><a href="${ROOT}/index.html">Home page</a></li>
+		</ul><ul>
+			<li><a href="${ROOT}/misc/topic.html">Technology/Topic</a></li>
+		</ul><ul>
+			<li><a href="${ROOT}/misc/opportunities.html">Opportunities</a></li>
+			<li><a href="${ROOT}/misc/risks.html">Risks</a></li>
+			<li><a href="${ROOT}/misc/choices.html">Choices</a></li>
+		</ul><ul>
+			<li><a href="${ROOT}/misc/references.html">References</a></li>
+		</ul><ul>
+			<li><a href="${ROOT}/misc/ethics.html">Ethical Reflections</a></li>
+			<li><a href="${ROOT}/misc/process.html">Process Support</a></li>
+			<li><a href="${ROOT}/misc/team-formation.html">Team Formation</a></li>
+			<li><a href="${ROOT}/misc/rubric.html">Assessment Rubric</a></li>
+			<li><a href="${ROOT}/misc/portfolio.html">Project Portfolio</a></li>
+		</ul>
+	`;
 	document.querySelector('footer').innerHTML = `
         Group 1107 &ndash; Nate, Kishan, Blake
     `;
