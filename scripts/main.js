@@ -24,6 +24,9 @@ document.addEventListener('DOMContentLoaded', function () {
 		</ul>
 	`;
 	document.querySelector('footer').innerHTML = `
-        Group 1107 &ndash; Nate, Kishan, Blake
+        <hr>
+		<span>Group 1107 &ndash; Nate, Kishan, Blake</span>
+		<br>
+		<a href="https://github.com/CTIS22-1107/website">Hosted on GitHub</a>
     `;
 });
