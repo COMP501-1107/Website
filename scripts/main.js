@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			<li><a href="${ROOT}/index.html">Home page</a></li>
 		</ul>
 		<ul>
-			<li><a href="${ROOT}/misc/rubric.html">Assessment Rubric</a></li>
+			<li><a href="${ROOT}/misc/team-formation.html">Team Formation</a></li>
 		</ul>
 		<ul>
 			<li><a href="${ROOT}/misc/topic.html">Technology/Topic</a></li>
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		<!--
 		<ul>
 			<li><a href="${ROOT}/misc/process.html">Process Support</a></li>
-			<li><a href="${ROOT}/misc/team-formation.html">Team Formation</a></li>
+			<li><a href="${ROOT}/misc/rubric.html">Assessment Rubric</a></li>
 			<li><a href="${ROOT}/misc/portfolio.html">Project Portfolio</a></li>
 		</ul>
 		-->
