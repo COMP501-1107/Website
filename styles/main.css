@@ -6,7 +6,7 @@ html {
 	max-width: 38rem;
 	padding: 2rem;
 	margin: auto;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: system-ui, sans-serif;
 	line-height: 1.5rem;
 	font-size: 20px;
 }
@@ -40,8 +40,9 @@ footer {
 	text-align: center;
 }
 
-a {
-	opacity: 75%;
+:any-link {
+    color: #4592ff;
+    text-decoration: none;
 }
 
 table,
