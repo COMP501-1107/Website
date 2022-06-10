@@ -13,6 +13,10 @@ html {
 
 h1 {
 	text-align: center;
+	text-transform: uppercase;
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+	padding: 0.5em;
 }
 
 nav {
